@@ -1,0 +1,12 @@
+//? Lists
+li=[]
+type(li)
+//* It will print zero as length of the list is zero
+len(li)
+
+
+//! Lab-3
+Q1. Max of 3 (done)
+Q2. find the distance b/w 2 points 
+Q3. Create list, add 5 elements, and use range elements and get elements 
+Q4. Command line arguments
