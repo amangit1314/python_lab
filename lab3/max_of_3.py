@@ -9,5 +9,8 @@ if a > b and a > c:
 elif b > a and b > c:
     print("Maximum is: ", b)
 
+elif b == a and b == c:
+    print("Nothing is maximum")
+
 else:
     print("Maximum is: ", c)

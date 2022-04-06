@@ -1,12 +1,48 @@
-//? Lists
+//? <-------------------- Lists ------------------------------------------------->
 li=[]
+
+//? typecast to li type
 type(li)
-//* It will print zero as length of the list is zero
+
+//? It will print zero as length of the list is zero
 len(li)
+//? <---------------------------- END ----------------------------------------->
 
-
-//! Lab-3
+//* <---------------------------- LAB 3 --------------------------------------->
 Q1. Max of 3 (done)
-Q2. find the distance b/w 2 points 
-Q3. Create list, add 5 elements, and use range elements and get elements 
+Q2. find the distance b/w 2 points (done)
+Q3. Create list, add 5 elements, and use range elements and get elements (done) 
 Q4. Command line arguments
+//* <--------------------------- END --------------------------------------------->
+
+//* <--------------------------- Lab 5 ------------------------------------------->
+topic numpy example
+//! <----  topics  -------------   for today   ------------------------------->
+import numpy as np
+d = np.array([2,3,4], [], [])
+1=[1,2,3]
+gh=np.array(1)
+gh
+l=[[1,2],[3,4]]
+gh.shape
+e = np.array([],[],[])
+
+//? <------------------------------------------------------------------------------>
+//* (array multiplication)
+d * e 
+//! (matrix multiplication)
+d @ e 
+//* (gives matrix product)
+d.dot(e) 
+//? to reshape the array
+g=f.reshape(3,2) 
+
+//? <------------------------------------------------------------------------------>
+
+//* <-------------------------- Lab 5 END ------------------------------------->
+
+
+//* <---------------------------- LAB 6 --------------------------------------->
+1. Find the sum of all prime no below 2 million(2000000)
+2. By considering the terms in the fibonacci sequences where values do not exceed 4 million . WAP to find the sum of only even valued terms.
+//* <---------------------------- LAB 6 END ----------------------------------->
